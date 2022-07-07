@@ -7,6 +7,12 @@ const getAllProducts = async (): Promise<IProduct[]> => {
   return products as IProduct[];
 };
 
+// const get = async <T>(query:string): Promise<T[]> => {
+// //   const query = 'SELECT * FROM Trybesmith.Products;';
+//   const [items] = await connection.execute(query);
+//   return items as T[];
+// };
+
 export default {
   getAllProducts,
 };
