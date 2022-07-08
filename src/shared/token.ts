@@ -4,7 +4,7 @@ import { IUser } from '../interfaces/users';
 
 dotenv.config();
 
-const SECRET = process.env.SECRET as string;
+const SECRET = 'senhatoken';
 
 const jwtConfig: SignOptions = {
   expiresIn: '7d',
